@@ -1,0 +1,107 @@
+body {
+    background-color: #E8E8E8;
+    font-family: Times New Roman, serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4%;
+    background-color: #fff;
+    box-shadow: 0 0 4px #A6A5A0;
+}
+.logo {
+    margin-bottom: 40px;
+    background: url(../img/logo.png) no-repeat center ;
+    width: 150px;
+}
+.logo a{
+    display: block;
+    height: 40px;
+}
+.head-menu{
+    margin-bottom: 40px;
+    height: 40px;
+    background-color: #696969;
+}
+.head-menu li{
+    font-size:18px;
+    line-height:40px;
+    display:inline-block;
+    border-right:1px solid #838383;
+}
+.head-menu li a{
+    padding: 0 50px;
+    display: inline-block;
+    color: #fff;
+}
+.head-menu li a:hover{
+    background-color: #000000;
+    border-right:1px solid #838383;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+.left-menu{
+    width:25%;
+    border: 1px solid #DADAD7;
+    float: left;
+}
+
+.left-menu li{
+    height: 40px;
+    border-bottom: 1px solid  #DADAD7;
+}
+.left-menu li:last-child{
+    border-bottom: none;
+}
+.left-menu li a{
+    display: block;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 25px;
+    color: #696969;
+}
+.left-menu li a:hover{
+    background-color: #F5F5F5;
+    color: black;
+    padding-left: 30px;
+}
+.right-content{
+    width: 70%;
+    float: right;
+}
+.image{
+    border: 1px solid  #DADAD7;
+    height: 500px;
+    background: url(../img/velo.jpg) no-repeat center;
+}
+.right-content p{
+    margin: 30px 30px 50px 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #696969;
+}
+.footer{
+    padding: 0 25px;
+    height: 40px;
+    background-color: #E8E8E8;
+    font-size: 13px;
+    line-height: 40px;
+    color: #696969;
+    display: block;
+}
+.footer a{
+    color: #2c2c2c;
+    padding-right: 90px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    float: right;
+}
