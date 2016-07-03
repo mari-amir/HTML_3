@@ -1,5 +1,5 @@
 body {
-    background-color: #E8E8E8;
+    background-color: #F8F8F8;
     font-family: Times New Roman, serif;
     font-size: 16px;
 }
@@ -7,11 +7,11 @@ a {
     text-decoration: none;
 }
 .wrapper {
-    width: 70%;
+    width: 960px;
     margin: 0 auto;
-    padding: 4%;
+    padding: 50px;
     background-color: #fff;
-    box-shadow: 0 0 4px #A6A5A0;
+    box-shadow: 0 0 20px #A6A5A0;
 }
 .logo {
     margin-bottom: 40px;
@@ -25,29 +25,30 @@ a {
 .head-menu{
     margin-bottom: 40px;
     height: 40px;
-    background-color: #696969;
+    background: url("../img/menu.png") repeat-x;
 }
 .head-menu li{
-    font-size:18px;
-    line-height:40px;
-    display:inline-block;
-    border-right:1px solid #838383;
+    font-size: 18px;
+    line-height: 40px;
+    float: left;
 }
 .head-menu li a{
     padding: 0 50px;
     display: inline-block;
     color: #fff;
+    border-right: 1px solid rgba(0,0,0,0);
+    border-left: 1px solid rgba(0,0,0,0);
 }
 .head-menu li a:hover{
-    background-color: #000000;
-    border-right:1px solid #838383;
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
 }
 .content{
     position: relative;
     overflow: hidden;
 }
 .left-menu{
-    width:25%;
+    width: 25%;
     border: 1px solid #DADAD7;
     float: left;
 }
@@ -89,7 +90,7 @@ a {
 .footer{
     padding: 0 25px;
     height: 40px;
-    background-color: #E8E8E8;
+    background-color: #F8F8F8;
     font-size: 13px;
     line-height: 40px;
     color: #696969;
