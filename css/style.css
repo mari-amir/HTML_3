@@ -14,7 +14,7 @@ a {
     box-shadow: 0 0 20px #A6A5A0;
 }
 .logo {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     background: url(../img/logo.png) no-repeat center ;
     width: 150px;
 }
@@ -25,30 +25,32 @@ a {
 .head-menu{
     margin-bottom: 40px;
     height: 40px;
-    background: url("../img/menu.png") repeat-x;
+    background:url("../img/menu.png") repeat-x;
 }
 .head-menu li{
-    font-size: 18px;
-    line-height: 40px;
-    float: left;
+    font-size:18px;
+    line-height:40px;
+    float:left;
 }
 .head-menu li a{
     padding: 0 50px;
     display: inline-block;
     color: #fff;
-    border-right: 1px solid rgba(0,0,0,0);
+    border-right:1px solid rgba(0,0,0,0);
     border-left: 1px solid rgba(0,0,0,0);
 }
 .head-menu li a:hover{
-    border-right: 1px solid #838383;
+    border-right:1px solid #838383;
     border-left: 1px solid #838383;
+    background: #4a4a4a;
+    background: linear-gradient(#4a4a4a, #2e2e2e);
 }
 .content{
     position: relative;
     overflow: hidden;
 }
 .left-menu{
-    width: 25%;
+    width:25%;
     border: 1px solid #DADAD7;
     float: left;
 }
@@ -90,7 +92,7 @@ a {
 .footer{
     padding: 0 25px;
     height: 40px;
-    background-color: #F8F8F8;
+    background-color: #E8E8E8;
     font-size: 13px;
     line-height: 40px;
     color: #696969;
